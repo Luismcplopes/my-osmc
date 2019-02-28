@@ -9,11 +9,11 @@ RaspeberryPi with OSMC and SSH and Samba and Transmission and sickchill and Couc
 
 ## How to activate SSH, Samba, Transmissio inside the OSMC 
 On OSMC go to "PROGRAMAS",  "MY OSMC" "APP STORE" and then install the services
-My osmc => Updates => Manual Controls => Scan for updates now 
-My osmc => App Store => install Transmition
-My osmc => App Store => install Samba
-My osmc => App Store => install SSH
-My osmc => App Store => install Cron task
+- My osmc => Updates => Manual Controls => Scan for updates now 
+- My osmc => App Store => install Transmition
+- My osmc => App Store => install Samba
+- My osmc => App Store => install SSH
+- My osmc => App Store => install Cron task
 
 ## Install all
 Run this `sudo wget https://raw.githubusercontent.com/Luismcplopes/my-osmc/master/easyinstall-all.sh  -O /home/osmc/easyinstall-all.sh` or Copy file `install-couchpotato-sickrage.sh` to osmc home folder and run command:
