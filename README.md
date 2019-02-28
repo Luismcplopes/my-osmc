@@ -21,9 +21,19 @@ Run this `sudo wget https://raw.githubusercontent.com/Luismcplopes/my-osmc/maste
 sudo sh easyinstall-all.sh
 ```
 ## Slackhook
-## cronJob
+For this to work it is necessary to create a file `slack_url` on `/usr/bin/` with slack-Hook in it or 
+```bash
+sudo bash -c 'cat << EOF > /usr/bin/slack_url
+https://hooks.slack.com/services/Your-hook-here
+EOF'
+sudo chmod +x /usr/bin/slack_url
+```
 
+- https://gist.github.com/Luismcplopes/e8272ecb23bfd4f70328838de270a630
 
+## Script to CleanUP Transmission (cronJob)
+See 
+- https://gist.github.com/Luismcplopes/09182033ccfa99fccde0f7a6ae281cd6
 
 ## Some Notes
 ### Samba - how to config extra shares
