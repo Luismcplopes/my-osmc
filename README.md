@@ -5,6 +5,7 @@ RaspeberryPi with OSMC and SSH and Samba and Transmission and sickchill and Couc
  - https://osmc.tv/download/
 
 ## Install on SD card
+ - https://www.youtube.com/watch?v=-9vgJ4u4saI (install with wifi)
  - https://computers.tutsplus.com/articles/how-to-flash-an-sd-card-for-raspberry-pi--mac-53600
 
 ## How to activate SSH, Samba, Transmissio inside the OSMC 
